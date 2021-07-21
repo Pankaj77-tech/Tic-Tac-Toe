@@ -1,0 +1,26 @@
+.icon{
+    color: red;
+    font-size: 50px;
+}
+body{
+    background-color: aqua;
+    
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box{
+    width:auto;
+    height: 100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.center{
+    align-items:center;
+    justify-content:center;
+}
